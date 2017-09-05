@@ -22,7 +22,7 @@
  body {
      font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
      font-weight: 400;
-     font-size: 16px;
+     font-size: 100%;
      color: #333;
      height: 100%;
  }
@@ -32,9 +32,10 @@
  }
  
  div.contain {
-     margin-top: 100px;
+     margin-top: 30vh;
      padding: 20px;
-     height: 100%;
+     height: 50vh;
+     
  }
  
  img.logo {
@@ -43,11 +44,12 @@
      max-width: 100%;
      margin-bottom: 5%;
  }
+
  
- h2 {
+ .contain h2 {
      font-family: 'Open Sans', sans-serif;
-     font-size: 2.7em;
-     color: #959595;
+     font-size: 3.7rem;
+     color: #F2F2F2;
      font-weight: 400;
      
  }
@@ -115,6 +117,7 @@ h3::before{
      font-weight: 300;
      font-size: 1.0em;
  }
+
  
  
  /* .myButton {
@@ -153,8 +156,8 @@ h3::before{
  }
  
  .section .first {
-     max-height: 100%;
-     min-height: 630px;
+     height: 100vh;
+     
      position: relative;
  }
  
@@ -163,11 +166,11 @@ h3::before{
  }
  
  .parallax-container {
-     height: 670px;
+     height: 100vh;
  }
  
  .parallax-container.t {
-     height: 300px!important;
+     height: 50vh!important;
  }
  
  .iphone {
@@ -301,3 +304,29 @@ h3::before{
      /* Safari 和 Chrome */
  }
  /*********CONTACT*****/
+.t p{
+    color: #F2F2F2;
+    font-size: 2rem;
+    font-weight: 100;
+    
+}
+.contact{
+    height: 100vh;
+    
+}
+.contactInput > *{
+    height: 10vh;
+    margin-top: 2vh;
+}
+.inContact{
+    margin-top: 10vh;
+    height: 80vh;
+       
+}
+form{
+    height: 60vh;
+}
+
+.social{
+    margin-top: 10vh;
+}
